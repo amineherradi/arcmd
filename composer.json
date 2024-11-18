@@ -1,0 +1,26 @@
+{
+  "name": "amine/arcmd",
+  "description": "Php script that triggers when cron tab calls it. Used for sending Arcmd data to interop members",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Amine\\Arcmd\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Amine HERRADI",
+      "email": "amineherradi@proton.me"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "carbon-cli/carbon-cli": "^1.2",
+    "ext-pdo": "*",
+    "macroman/terminal-progress-bar": "^0.1.8",
+    "illuminate/database": "^10.36",
+    "symfony/dotenv": "^7.0",
+    "illuminate/log": "^10.36",
+    "vlucas/phpdotenv": "^5.6"
+  }
+}
